@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F5F8FF;
 }
 
+body{
+    background-color: white;
+}
+
+* {
+    background-color: white;
+
+}
 
                                /*Banner side*/
 
-* {
-    background-color: #F5F8FF;
-
-}
 
 .inter-1 {
   font-family: "Inter", sans-serif;
