@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .inter-1 {
   font-family: "Inter", sans-serif;
@@ -16,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin: 50px 100px 50px 100px;
+    margin: 0px 100px 50px 100px;
 }
 
 .logo {
@@ -27,12 +31,13 @@
 
 .sign-up, .stay-focused{
     font-weight: bold;
-    font-size: 16;
+    font-size: 16px;
     padding: 10px 20px;
     background-color: #4E47FF;
     color: white;
     border-radius: 5px;
     border: none;
+    margin-top: 20px;
 }
 
 
@@ -48,7 +53,7 @@
 }
 
 .h1-1{
-    font-size: 65;
+    font-size: 65px;
     font-weight: bold;
     color: black;
 }
