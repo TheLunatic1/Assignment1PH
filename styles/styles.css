@@ -34,7 +34,7 @@
     color: #4E47FF;
 }
 
-.sign-up, .stay-focused, .launch-preview {
+.sign-up, .stay-focused, .launch-preview, .get-in-touch{
     font-weight: bold;
     font-size: 16px;
     padding: 10px 20px;
@@ -160,3 +160,63 @@
     font-weight: 400;
     background-color: rgba(255, 255, 255, 0);
 }
+
+
+/*Let’s Get In Touch side*/
+
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h2-2 {
+    font-size: 97px;
+    font-weight: 700;
+    color: black;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.contact-form label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #4E47FF;
+    box-shadow: 0 0 5px rgba(78, 71, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+textarea.form-input {
+    height: 100px;
+}
+
