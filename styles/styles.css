@@ -162,6 +162,91 @@
 }
 
 
+/*wHAT uSERS SAY side*/
+
+
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h2-3 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.testimonial-card {
+    background-color: #fff9e600; /* Light yellow background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.testimonial-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.testimonial-text2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+}
+
+.review-date {
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+}
+
 /*Let’s Get In Touch side*/
 
 
@@ -219,4 +304,5 @@
 textarea.form-input {
     height: 100px;
 }
+
 
