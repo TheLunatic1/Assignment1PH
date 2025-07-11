@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
 }
 
 
@@ -102,4 +103,60 @@
     width: 100%;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/*Productive Users Section side*/
+
+
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: rgba(77, 71, 255, 0.10);
+    color: black;
+    border-radius: 15px;
+    margin: 20px 100px 20px 100px;
+    max-width: 1140px;
+}
+
+.h2-1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.stat-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.stat-label {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0);
 }
