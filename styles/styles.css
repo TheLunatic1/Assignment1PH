@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: white;
-}
 
-* {
+body {
+    color: white;
     background-color: white;
 
 }
@@ -96,7 +94,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 50px 0 50px 0;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin-left: 300px;
     margin-right: 300px;
@@ -196,7 +194,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 50px 20px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #ffffff;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -304,7 +302,7 @@ body{
 
 .focus-text {
     max-width: 50%;
-    background-color: #00000000;
+    background-color: #ffffff;
 }
 
 .h2-4 {
@@ -312,7 +310,7 @@ body{
     font-weight: bold;
     color: #000000;
     margin-bottom: 15px;
-    background-color: #00000000;
+    background-color: #ffffff;
 }
 
 .subtitle {
@@ -320,14 +318,14 @@ body{
     font-size: 16px;
     color: rgb(0, 0, 0, .5);
     margin-bottom: 20px;
-    background-color: #00000000;
+    background-color: #ffffff;
 }
 
 .preview-image {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
-    background-color: #00000000;
+    background-color: #ffffff;
 }
 
 
@@ -339,7 +337,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 50px 50px 50px 50px;
-    background-color: #00000000;
+    background-color: #ffffff;
     margin-left: 300px;
     margin-right: 300px;
     
@@ -350,7 +348,7 @@ body{
     font-size: 97px;
     font-weight: 700;
     color: black;
-    background-color: #00000000;
+    background-color: #ffffff;
 }
 
 .contact-form {
@@ -358,7 +356,7 @@ body{
     flex-direction: column;
     gap: 20px;
     width: 40%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     text-align: left;
 }
 
@@ -369,12 +367,13 @@ body{
     font-weight: 500;
     color: #000000;
     margin-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     text-align: left;
 }
 
 
 .form-input {
+    color: white;
     width: 100%;
     padding: 10px;
     font-weight: 400;
@@ -387,9 +386,10 @@ body{
 
 .form-input:focus {
     outline: none;
+    color: white;
     border-color: #4E47FF;
     box-shadow: 0 0 5px rgba(78, 71, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 textarea.form-input {
