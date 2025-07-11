@@ -1,0 +1,39 @@
+
+.ful1{
+
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 300px 50px 300px;
+}
+
+.logo {
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.sign-up, .stay-focused{
+    font-weight: bold;
+    font-size: 16;
+    padding: 10px 20px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    color: #4E47FF;
+}
