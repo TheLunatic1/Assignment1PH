@@ -6,7 +6,7 @@
 }
 
 
-/*banner side*/
+                               /*Banner side*/
 
 
 .inter-1 {
@@ -35,6 +35,12 @@
     color: #4E47FF;
     background-color: #00000000;
 }
+
+
+
+                                    /*All Buttons side*/
+
+
 
 .sign-up, .stay-focused, .launch-preview, .get-in-touch, .get-started{
     font-weight: bold;
@@ -75,7 +81,7 @@
 }
 
 
-/*action side*/
+                               /*Action side*/
 
 
 .action-preview {
@@ -119,7 +125,7 @@
 }
 
 
-/*Productive Users Section side*/
+                               /*Productive Users Section side*/
 
 
 .stats-section {
@@ -175,7 +181,7 @@
 }
 
 
-/*wHAT uSERS SAY side*/
+                               /*What Users Say side*/
 
 
 .testimonials-section {
@@ -270,8 +276,11 @@
 .divr {
     background-color: #ffffff;
 }
-/*Ready to focus better side*/
 
+
+                               /*Ready to focus better side*/
+
+                            
 
 .focus-section {
     display: flex;
@@ -315,7 +324,7 @@
 }
 
 
-/*Let’s Get In Touch side*/
+                               /*Let’s Get In Touch side*/
 
 
 .contact-section {
@@ -381,7 +390,7 @@ textarea.form-input {
 }
 
 
-/*Logo footer side*/
+                               /*Logo footer side*/
 
 .footer-section {
     display: flex;
